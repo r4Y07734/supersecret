@@ -48,14 +48,14 @@ html, body {
 }
 
 .text ul {
-    font-size: 1.2rem;
+    font-size: 19.2px;
     /*margin-left: 0;*/
     /*padding-left: 25px;*/
     display: block;
     list-style-position: inside;
 }
 .text h1 {
-    font-size: calc(1.2rem + 2px);
+    font-size: calc(19.2px + 2px);
 }
 
 @media screen and (max-height: 868px) {
