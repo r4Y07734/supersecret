@@ -1,0 +1,46 @@
+.contact {
+    /*margin-bottom:3rem;*/
+    width: 600px;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.contact-container {
+    margin: auto;
+    padding-bottom: 120px;
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    width:fit-content;
+    /*border: 1px solid #000;*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.person {
+    height: 100px;
+}
+
+h1 {
+    font-size: calc(1.2rem + 4px);
+}
+
+h3 {
+    font-size: calc(1.2rem + 2px);
+}
+
+@media screen and (max-height: 920px) {
+    .contact-container {
+        padding: 0 0 0 0;
+        margin: 35px 0;
+    }
+}

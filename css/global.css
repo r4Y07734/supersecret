@@ -1,0 +1,48 @@
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: calibri;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+body {
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+#red{
+    color:red;
+}
+
+#white{
+    color:#fff;
+}
+
+#link{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#logo{
+    margin-top:5px;
+}
+
+body{
+    font-family:calibri;
+    /*background: linear-gradient(#141414 120px,#444,#141414 calc(100vh - 90px));*/
+    text-decoration:none;
+}
+
+@media screen and (max-width: 960px) {
+    .social-icon{
+        margin:10px 47% 0 47%;
+    }
+}

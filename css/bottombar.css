@@ -1,0 +1,30 @@
+.bottombar{
+	background-color:#141414;
+	display: flex;
+	color:white;
+	height:120px;
+	width:100%;
+	margin:0 0 0 0;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+}
+
+.bottombar_container {
+	height: 120px;
+	margin: auto;
+	align-items: center;
+	display: flex;
+}
+
+@media screen and (max-height: 868px) {
+	.bottombar {
+		position: static;
+	}
+}
+
+@media screen and (max-width: 1450px) {
+	.bottombar {
+		position: static;
+	}
+}
