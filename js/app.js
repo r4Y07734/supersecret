@@ -12,6 +12,8 @@ window.onload = function() {
     //document.body.style.minHeight = window.innerHeight + "px";
     //const documentHeight = document.documentElement.scrollHeight;
     const windowheight = document.body.scrollHeight;
+
+    window.devicePixelRatio = 1;
     
     document.body.style.background = `linear-gradient(#141414 164px, #444, #141414 ${windowheight - 120}px)`;
     //responsiveIndex();
