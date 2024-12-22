@@ -84,8 +84,10 @@ html, body {
     .text-container {
         width: 83.2%;
     }
+}
 
-    .text-container ul {
+@media screen and (max-width: 780px) {
+    .text-container ul{
         font-size: 2.5vw;
     }
 
