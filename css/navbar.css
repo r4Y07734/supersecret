@@ -62,7 +62,7 @@
     transition:all 0.5s ease;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 570px) {
     #logo {
         height: 77px;
     }
