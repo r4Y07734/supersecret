@@ -15,12 +15,6 @@ body {
 	scrollbar-width: none;
 }
 
-@supports not (background: -webkit-linear-gradient(#141414 120px,#444,#141414 calc(100vh - 90px))) {
-    body {
-        background: #161616;
-    }
-}
-
 ::-webkit-scrollbar {
 	display: none;
 }
