@@ -16,6 +16,7 @@ window.onload = function() {
     window.devicePixelRatio = 1;
     
     document.body.style.background = `linear-gradient(#141414 164px, #444, #141414 ${windowheight - 120}px)`;
+    document.body.style.background = `-webkitlinear-gradient(#141414 164px, #444, #141414 ${windowheight - 120}px)`;
     //responsiveIndex();
 };
 
@@ -24,6 +25,7 @@ function background() {
     const windowheight = document.body.scrollHeight;
 
     document.body.style.background = `linear-gradient(#141414 ${164/* + scrollAmount*/}px, #444, #141414 ${windowheight - 120/* + scrollAmount*/}px)`;
+    document.body.style.background = `-webkit-linear-gradient(#141414 ${164/* + scrollAmount*/}px, #444, #141414 ${windowheight - 120/* + scrollAmount*/}px)`;
 };
 
 /*function responsiveIndex() {
