@@ -57,9 +57,27 @@
 }
 
 .navbar_links:hover:not(.exclude){
-    background-color:black;
+    background-color: #090909;
     color:rgb(255,125,125);
     transition:all 0.5s ease;
+}
+
+@media screen and (max-width: 512px) {
+    #logo {
+        height: 77px;
+    }
+
+    .navbar {
+        height: 87px;
+    }
+
+    .navbar_container {
+        height: 87px;
+    }
+
+    .navbar_menu.active {
+        top: 87px !important;
+    }
 }
 
 @media screen and (max-width: 1450px) {
@@ -90,11 +108,11 @@
         transition: all 0.5s ease;
         height:50vh;
         z-index:-1;
-        background-color:#000;
+        background-color:#090909;
     }
 
     .navbar_menu.active{
-        background:#131313;
+        background:#141414;
         top:164px;
         opacity:1;
         transition:all 0.5s ease;
@@ -123,7 +141,7 @@
     }
 
     .navbar_links:hover {
-        background-color:black;
+        background-color:#090909;
         color:rgb(255,125,125);
         transition:all 0.5s ease;
     }    
